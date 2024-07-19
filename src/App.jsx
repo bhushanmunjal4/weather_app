@@ -8,8 +8,8 @@ function App() {
   const [weatherData, setWeatherData] = useState(null);
 
   const fetchWeatherData = async (city) => {
-    const apiKey = "f9fbb7c4c1f988da90449c0ff0358d5c";
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
+    const apiKey = "YOUR_API_KEY";
+    const url = `REPLACE_WITH_YOUR_WEATHER_API`;
 
     try {
       const response = await axios.get(url);
