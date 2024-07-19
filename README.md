@@ -1,4 +1,4 @@
-# React Vite Project
+# React Weather App
 
 ## Prerequisites
 
